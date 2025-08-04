@@ -1,0 +1,53 @@
+
+body{
+    width: 50vw;
+    margin: auto;
+}
+
+
+
+#titulo01{
+    color: #2C3E50;
+    background-color: #ECF0F1;
+    text-align: center;
+}
+.titulo-vermelho{
+    color: #E74C5D;
+    background-color: #F9EBEA;
+}
+
+
+
+#titulo02{
+    color: #27AE60;
+    background-color: #E9F7EF;
+    text-align: center;
+}
+.titulo-verde{
+    color: #27AE60;
+    background-color: #E9F7EF;
+}
+
+
+
+#titulo03{
+    color: #F39C12;
+    background-color: #FFF3E6;
+    text-align: center;
+}
+.titulo-laranja{
+    color: #F39C12;
+    background-color: #FFF3E6;
+}
+
+
+
+#titulo04{
+    color: #8E44AD;
+    background-color: #F5E6F5;
+    text-align: center;
+}
+.titulo-roxo{
+    color: #8E44AD;
+    background-color: #F5E6F5;
+}
