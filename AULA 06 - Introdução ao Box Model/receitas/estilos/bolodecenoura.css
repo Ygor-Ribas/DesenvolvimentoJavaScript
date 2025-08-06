@@ -1,0 +1,109 @@
+:root {
+    --cor-cabecalho-inicial: #e75f03d5;
+    --cor-cabecalho-final: #c15d00;
+    --cor-fundo-body: #f5f5f5;
+    --cor-rodape: #333;
+    --cor-main: #FFFFFF;
+    --cor-letras: #FFFFFF;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor-cabecalho-inicial), var(--cor-cabecalho-final));
+    text-align: center;
+    color: var(--cor-letras);
+    padding: 10px;
+}
+
+
+header p {
+    margin-top: 10px;
+}
+
+nav {
+    margin: 30px 0 10px;
+}
+
+nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: var(--cor-letras);
+    padding: 7px 10px;
+    transition: 0.3s ease;
+    border-radius: 10px;
+
+}
+
+nav a:hover {
+    background-color: #333;
+}
+
+
+#bolodecenoura{
+
+    border-radius: 10px;
+    width: 50vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin: 100px auto;
+    flex-direction: column;
+   
+}
+
+
+
+
+h2 {
+    font-size: 1.5em;
+ 
+}
+
+
+.receita-bolo-cenoura{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+
+.receita-bolo-cenoura ul{
+    padding-left: 40px;
+    margin-top: 10px;
+    line-height: 1.5em;
+
+}
+
+.receita-bolo-cenoura ol{
+    padding-left: 40px;
+    margin-top: 10px;
+    line-height: 1.5em;
+
+}
+
+
+
+
+img {
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+footer{
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--cor-rodape);
+    color: var(--cor-letras);
+}
