@@ -10,4 +10,20 @@ body{
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(to bottom, #00d7fe, #019cdf, #0081cf);
+
+}
+
+main{
+    margin: 50px auto;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    
+    
+    
+
+    
+    
+    
 }
