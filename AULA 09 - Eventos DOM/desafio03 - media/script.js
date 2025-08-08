@@ -9,6 +9,6 @@ function mostrarResultado(){
     console.log("O triplo de ", numero, "é " +triplo);
     let resultado = document.querySelector("#resultado")
 
-    resultado.innerHTML = "O dobro de "+ numero + " é " +dobro + "<br> O triplo de "+ numero + " é " +triplo+ "<br> A raiz quadrada de "+ numero + " é " +raiz
+    resultado.innerHTML = "O dobro de "+ numero + " é " +dobro + "<br> O triplo de "+ numero + " é " +triplo+ "<br> A raiz quadrada de "+ numero + " é " +raiz .toFixed(2)
     
 }
