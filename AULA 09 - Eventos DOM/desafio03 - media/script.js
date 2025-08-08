@@ -1,12 +1,14 @@
 function mostrarResultado(){
     let numero = parseInt(document.getElementById("numero").value)
-    let soma = numero + 1
-    let subtracao = numero - 1
+    let dobro = numero*2
+    let triplo = numero *3
+    let raiz = Math.sqrt(numero)
 
-    console.log("O sucessor de ", numero, "é " +soma);
-    console.log("O antecessor de ", numero, "é " +subtracao);
+    console.log("A raiz quadrada de ", numero, " é " +raiz);
+    console.log("O dobro de ", numero, "é " +dobro);
+    console.log("O triplo de ", numero, "é " +triplo);
     let resultado = document.querySelector("#resultado")
 
-    resultado.innerHTML = "O sucessor de "+ numero + " é " +soma + "<br> O antecessor "+ numero + " é " +subtracao 
+    resultado.innerHTML = "O dobro de "+ numero + " é " +dobro + "<br> O triplo de "+ numero + " é " +triplo+ "<br> A raiz quadrada de "+ numero + " é " +raiz
     
 }
