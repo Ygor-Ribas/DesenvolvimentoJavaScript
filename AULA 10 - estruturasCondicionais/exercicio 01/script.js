@@ -3,7 +3,10 @@ function  mostrarResultado(){
 let km = parseInt(document.querySelector("#km").value)
 let resultado = document.querySelector("#resultado")
 
-
+if(isNaN(km)){
+    resultado.innerHTML = "informe um valor"
+    return
+}
 
 if(km > 80){
     let resultadoMulta = (km - 80) * 7
