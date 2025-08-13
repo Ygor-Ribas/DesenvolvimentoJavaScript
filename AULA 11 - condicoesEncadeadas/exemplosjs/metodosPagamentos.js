@@ -37,7 +37,7 @@ else{
         
     }else{
         parcelas = (valorGasto * 1.10) / 3
-        console.log("parcelas em 3x" +parcelas );
+        console.log("parcelas em " +parcelas );
 
     }
     

@@ -1,3 +1,5 @@
+const { metodoPagamento, valorGasto, parcelamento } = require("./metodosPagamentos");
+
 let nota1 = 50
 let nota2 = 50
 
@@ -25,3 +27,7 @@ else if (media >= 50){
     console.log("reprovado");
     
 }
+
+
+
+
