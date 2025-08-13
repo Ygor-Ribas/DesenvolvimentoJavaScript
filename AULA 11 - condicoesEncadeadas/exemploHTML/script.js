@@ -11,6 +11,7 @@ function mostrarResultado(){
     if (media >= 70){
         resultado.innerHTML = "Aprovado"
         resultado.style.color = "green"
+         notaRecuperacao.style.display = "none"
         
         
     }else if(media >= 50){
@@ -41,6 +42,7 @@ function mostrarResultado(){
             resultadoMedia.innerHTML = "A sua media é de " +mediaFinal
              resultado.innerHTML = "Reprovado"
              resultado.style.color = "red"
+              notaRecuperacao.style.display = "none"
 
         }
     }
