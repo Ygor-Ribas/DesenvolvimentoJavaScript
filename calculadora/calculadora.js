@@ -2,7 +2,6 @@ function mostrarResultado(){
 
     let num1 = parseInt(document.querySelector("#num1").value)
     let num2 = parseInt(document.querySelector("#num2").value)
-    let media = document.querySelector("#media")
     let resultado = document.querySelector("#resultado")
     let operacao= document.querySelector("#operacoes").value
    
