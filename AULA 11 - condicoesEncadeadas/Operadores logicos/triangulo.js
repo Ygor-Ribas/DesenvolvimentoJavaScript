@@ -1,16 +1,21 @@
-let ladoA = 10
-let ladoB = 10
+let ladoA = 20
+let ladoB = 30
 let ladoC = 10
 
-let ladoAB = ladoA + ladoB
-let ladoAC = ladoA + ladoC
-let ladoBC = ladoB + ladoC
 
 
-if (ladoAB > ladoC && ladoAC > ladoB && ladoBC > ladoA) {
-    console.log("Lados validos para formar um triangulo");
+
+
+if (ladoA == ladoB && ladoB == ladoC ) {
+    console.log("Este é um triangulo Equilátero");
    
+}else if (ladoA == ladoB  || ladoA == ladoC || ladoB == ladoC){
+    console.log("Este é um triangulo Isósceles");
+    
 }else{
-    console.log("Lados invalidos para formar um triangulo");
+    console.log("Este é um triangulo Escaleno");
+    
+    
+    
     
 }
