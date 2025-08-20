@@ -16,6 +16,7 @@ function adicionarTarefa(){
 
 function exibeTarefas(){
     let listaTarefas = document.getElementById("lista-tarefas")
+    listaTarefas.innerHTML = ""
 
     tarefas.forEach((tarefa) => {
         let li = document.createElement("li")
