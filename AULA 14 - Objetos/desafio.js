@@ -14,6 +14,10 @@
      {titulo: "Neuromancer", preco: 35.9, categoria: "Ficção", estoque: 7}
  ]
 
+ livros.sort((a, b) => a.titulo.localeCompare(b.titulo))
+ console.log(livros);
+ 
+
  livros.forEach((livro) => {
     console.log(livro.titulo + " - " + "R$" + livro.preco + " - " + livro.estoque);
     
