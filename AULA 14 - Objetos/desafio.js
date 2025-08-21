@@ -29,9 +29,9 @@ livrosFiccao.forEach((livro) => {
 
 const livrosDescontos = livrosFiccao.map(livro => ({
     titulo: livro.titulo,
-    preco: livro.preco * 90,
+    preco: livro.preco * 0.90,
     categoria: livro.categoria
-    
+
 
 }))
 
