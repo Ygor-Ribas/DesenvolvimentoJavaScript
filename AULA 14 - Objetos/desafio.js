@@ -16,6 +16,11 @@
 
  livros.sort((a, b) => a.titulo.localeCompare(b.titulo))
  console.log(livros);
+
+ const valorTotalEstoque = livros.reduce((total, livro) =>{
+    let valor = total + livro.preco * livro.estoque;
+    return valor
+ }, 0)
  
 
  livros.forEach((livro) => {
